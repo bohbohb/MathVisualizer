@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ImageViewer
+comment0.text=\n\ Create\ a\ GUI\ ImageViewer\n\ \n\ @author\ (il\ tuo\ nome)\ \n\ @version\ (un\ numero\ di\ versione\ o\ una\ data)\n
+comment1.params=
+comment1.target=ImageViewer()
+comment1.text=\n\ Costruttore\ degli\ oggetti\ di\ classe\ \ ImageViewer\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\n\ Un\ esempio\ di\ metodo\ -\ aggiungi\ i\ tuoi\ commenti\n\ \n\ @param\ \ y\ \ \ un\ parametro\ d'esempio\ per\ un\ metodo\n\ @return\ \ \ \ \ la\ somma\ di\ x\ e\ y\n
+numComments=3
