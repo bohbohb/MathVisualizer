@@ -2,12 +2,16 @@ import java.awt.*;
 import javax.swing.*;
 
 /**
+ * Font -> to The Font class represents fonts, which are used to render text in a visible way.
+ */
+
+/**
  * Create a GUI ImageViewer
  * 
- * @author (il tuo nome) 
- * @version (un numero di versione o una data)
+ * @author Federico Lombardo & Alessandro Cagnani
+ * @version 7/5/2021
  */
-public class ImageViewer
+public class ImageViewer 
 {
     // variabili d'istanza - sostituisci l'esempio che segue con il tuo
     private JFrame frame;
@@ -21,17 +25,16 @@ public class ImageViewer
     }
 
     /**
-     * Un esempio di metodo - aggiungi i tuoi commenti
+     * This create the frame and get as input the formula.
      * 
-     * @param  y   un parametro d'esempio per un metodo
-     * @return     la somma di x e y
      */
     public void makeFrame()
     {
         frame = new JFrame("Math Formula Visualizer");
         Container contentPane = frame.getContentPane();
         
-        JLabel label = new JLabel("Formula : ");
+        String formula = JOptionPane.showInputDialog(null, "Enter your Formula : ");
+        JLabel label = new JLabel("The Formula is: " + formula );
         contentPane.add(label);
         
         frame.setMinimumSize(new Dimension(600,400));
