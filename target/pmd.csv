@@ -1,0 +1,5 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/ImageViewer.java","3","17","Perhaps 'frame' could be replaced by a local variable.","Design","SingularField"
+"2","","/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/ImageViewer.java","3","34","Local variable 'contentPane' could be declared final","Code Style","LocalVariableCouldBeFinal"
+"3","","/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/ImageViewer.java","3","36","Local variable 'formula' could be declared final","Code Style","LocalVariableCouldBeFinal"
+"4","","/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/ImageViewer.java","3","37","Local variable 'label' could be declared final","Code Style","LocalVariableCouldBeFinal"

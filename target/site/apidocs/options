@@ -1,0 +1,22 @@
+-classpath
+'/Users/federicolomba/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/federicolomba/.m2/repository/junit/junit/4.12/junit-4.12.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer:/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/federicolomba/Downloads/BlueJ 5.0.0/MathVisualizer/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'lab-parser 0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'lab-parser 0.1-SNAPSHOT API'
