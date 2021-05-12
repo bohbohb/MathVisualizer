@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=INEG
+comment0.text=\n\ INEG\ negates\ the\ top\ value\ from\ the\ OperandStack\n\ and\ pushes\ the\ result\ back\ to\ the\ OperandStack.\n
+comment1.params=storage
+comment1.target=void\ execute(Storage)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
