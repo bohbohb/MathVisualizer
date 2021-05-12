@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CompilerTest
+comment0.text=\n\ Test\ compile()\ of\ Node\ subclasses\n\ (and\ toString()\ of\ Instruction\ subclasses).\n\ This\ tests\ that\ the\ compile()\ methods\ generate\ the\ correct\n\ sequence\ of\ Instructions.\n
+comment1.params=
+comment1.target=void\ testLiteral()
+comment2.params=
+comment2.target=void\ testNegation()
+comment3.params=
+comment3.target=void\ testAddition()
+comment4.params=
+comment4.target=void\ testSubtraction()
+comment5.params=
+comment5.target=void\ testVariable()
+comment6.params=
+comment6.target=void\ testMultiplication()
+comment7.params=
+comment7.target=void\ testDivision()
+numComments=8
