@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Function
+comment0.text=\n\ The\ Function\ is\ the\ most\ important\ part\ of\ the\ "model"\ \n\ in\ our\ function\ plotter\ application.\n\ The\ "model"\ does\ not\ know\ anything\ about\ the\ "GUI".\n\ It\ could\ exist\ without\ "GUI"\ (e.g.,\ for\ a\ command-line\ interface).\n
+comment1.params=expressionText
+comment1.target=Function(java.lang.String)
+comment1.text=\n\ Create\ a\ Function\ based\ on\ the\ given\ expression.\n\ @param\ expressionText\ The\ expression\ (a\ function\ of\ x).\n
+comment2.params=expressionText
+comment2.target=void\ setExpression(java.lang.String)
+comment2.text=\n\ Change\ the\ expression\ underlying\ this\ Function.\n\ @param\ expressionText\ The\ new\ expression\ (a\ function\ of\ x).\n
+comment3.params=
+comment3.target=java.lang.String\ getExpression()
+comment3.text=\n\ Get\ the\ expression\ defining\ this\ function.\n\ @return\ the\ expression.\n
+comment4.params=x
+comment4.target=double\ compute(double)
+comment4.text=\n\ Evaluate\ the\ function\ at\ the\ given\ x.\n\ @param\ x\ The\ value\ in\ which\ to\ evaluate\ the\ function.\n\ @return\ the\ value\ of\ the\ function\ in\ the\ given\ x.\n
+comment5.params=li
+comment5.target=void\ addFunctionListener(FunctionListener)
+comment5.text=\n\ Register\ the\ given\ FunctionListener,\n\ so\ it\ will\ be\ notified\ whenever\ this\ Function\ changes.\n\ @param\ li\ The\ FunctionListener\ to\ register\n
+comment6.params=li
+comment6.target=void\ removeFunctionListener(FunctionListener)
+comment6.text=\n\ Unregister\ the\ given\ FunctionListener,\n\ so\ it\ will\ not\ be\ notified\ anymore\ whenever\ this\ Function\ changes.\n\ @param\ li\ The\ FunctionListener\ to\ unregister\n
+comment7.params=
+comment7.target=void\ fireFunctionChanged()
+comment7.text=\n\ Notify\ all\ registered\ FunctionListener\ that\ this\ Function\ has\ changed.\n
+numComments=8

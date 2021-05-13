@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Plot
+comment0.text=\n\ The\ Plot\ is\ the\ "model"\ of\ this\ application.\n\ It\ is\ an\ immutable\ class\ that\n\ points\ to\ the\ two\ mutable\ and\ observable\ parts\ of\ the\ "model"\:\n\ 1)\ a\ Function,\ and\n\ 2)\ a\ Range\ (along\ the\ x-axis,\ over\ which\ the\ function\ should\ be\ plotted).\n
+comment1.params=function
+comment1.target=Plot(Function)
+comment1.text=\n\ Create\ a\ new\ Plot\ of\ the\ given\ Function,\ with\ the\ given\ Range\ and\ Cursor.\n\ @param\ function\ The\ Function\ to\ plot\n\ @param\ range\ The\ Range\ (on\ the\ x-axis)\ over\ which\ to\ plot\n\ @param\ cursor\ The\ Cursor\ denoting\ a\ point\ on\ the\ x-axis\n
+comment2.params=
+comment2.target=Function\ getFunction()
+comment2.text=\n\ Get\ the\ Function\ of\ this\ Plot.\n\ @return\ this\ Plot's\ Function\n
+numComments=3

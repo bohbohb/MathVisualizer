@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BIPUSH
+comment0.text=\n\ BIPUSH\ pushes\ the\ given\ value\ onto\ the\ operand\ stack.\n
+comment1.params=value
+comment1.target=BIPUSH(int)
+comment1.text=\n\ constructor\ for\ BIPUSH.\n\ @param\ value\ to\ be\ pushed\ onto\ the\ OS.\n
+comment2.params=storage
+comment2.target=void\ execute(Storage)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

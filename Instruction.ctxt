@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Instruction
+comment0.text=\n\ An\ IJVM-like\ instruction.\n
+comment1.params=storage
+comment1.target=void\ execute(Storage)
+comment1.text=\n\ Execute\ this\ instruction.\n\ @param\ storage\ The\ "memory"\ to\ use\ during\ the\ execution\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Get\ a\ String\ with\ the\ disassembled\ instruction.\n\ @return\ A\ String-representation\ of\ this\ instruction.\n
+numComments=3

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ILOAD
+comment0.text=\n\ ILOAD\ class.\n
+comment1.params=var
+comment1.target=ILOAD(java.lang.String)
+comment1.text=\n\ Costruttore\ degli\ oggetti\ di\ classe\ \ ILOAD.\n\ @param\ var\ the\ variable\ name\n
+comment2.params=storage
+comment2.target=void\ execute(Storage)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

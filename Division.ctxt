@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Division
+comment0.text=\n\ An\ integer\ division.\n\ \n
+comment1.params=leftChild\ rightChild
+comment1.target=Division(Node,\ Node)
+comment1.text=\n\ Costruttore\ degli\ oggetti\ di\ classe\ \ Division.\n\ @param\ leftChild\ the\ left\ operand\n\ @param\ rightChild\ the\ right\ operand\n
+comment2.params=
+comment2.target=Type\ getType()
+comment3.params=
+comment3.target=boolean\ isConstant()
+comment4.params=p
+comment4.target=void\ compile(Program)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
