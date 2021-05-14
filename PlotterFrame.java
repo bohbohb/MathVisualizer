@@ -26,8 +26,11 @@ public final class PlotterFrame extends JFrame {
         final JTextField expressionField = new JTextField(plot.getFunction().getExpression());
         add(expressionField, BorderLayout.NORTH);
         
+        // TODO: add canvas where you show the fraction (implement plotCanvas)
         final JPanel canvases = new JPanel(new BorderLayout());
-        // DODO: add canvas where you show the fraction
+        final PlotCanvas plotCanvas = new PlotCanvas(plot);   
+        canvases.add(plotCanvas, BorderLayout.CENTER);
+        
         
         // register listeners
         expressionField.addActionListener(new ActionListener() {

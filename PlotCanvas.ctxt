@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PlotCanvas
+comment0.text=\n\ The\ PlotCanvas\ is\ part\ of\ the\ GUI.\n\ It\ is\ a\ custom\ component,\ which\ draws\ itself\n\ (in\ the\ paintComponent\ method)\n\ and\ which\ provides\ information\ on\ how\ big\ it\ would\ like\ to\ be\n\ (via\ the\ getPreferredSize\ method).\n
+comment1.params=plot
+comment1.target=PlotCanvas(Plot)
+comment1.text=\n\ Create\ a\ PlotCanvas\ for\ the\ given\ Plot.\n\ @param\ plot\ The\ Plot\ to\ show\n
+comment2.params=function
+comment2.target=void\ functionChanged(Function)
+comment3.params=
+comment3.target=java.awt.Dimension\ getPreferredSize()
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+numComments=5

@@ -51,7 +51,11 @@ public final class Function {
      */
     public final double compute(final double x) {
         final VariableTable variableTable = new VariableTable();
-        //TODO: if your language supports doubles, remove this cast
+        
+        /** 
+         * TODO: the compute method must be changed or deleted
+         */
+        
         final int value = (int)x;
         variableTable.set("x", value);
         return program.execute(variableTable);
