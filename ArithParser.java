@@ -13,7 +13,8 @@
 public final class ArithParser implements Parser {
 
     private LexicalAnalyzer lexer;
-
+    
+    
     /**
      * Parse a program in the Arith language.
      * @param sourceCode The source code of the program in the Arith language
@@ -26,7 +27,7 @@ public final class ArithParser implements Parser {
         // now parse the EXPRESSION
         return parseExpression();
     }
-
+    
     /**
      * Parse an expression.
      * This assumes the lexer already points to the first token of this expression.
@@ -101,7 +102,7 @@ public final class ArithParser implements Parser {
 
             if ((lexer.getCurrentToken().getType() == TokenType.SLASH)){
                 lexer.fetchNextToken();
-                return new Division(first, parseTerm());
+                return new Division(first,  parseTerm());
             }
         }
         return first;

@@ -11,7 +11,9 @@ public final class Function {
 
     private final ArrayList<FunctionListener> listeners;
     private String expressionText;
+    // private final ArrayList<Fractions> fractions;
     private Program program;
+    
     
     /**
      * Create a Function based on the given expression.
@@ -32,6 +34,7 @@ public final class Function {
         final Parser parser = new ArithParser();
         final Node parsedExpression = parser.parse(expressionText);
         program = new Program();
+
         parsedExpression.compile(program);
         fireFunctionChanged();
     }
@@ -42,23 +45,6 @@ public final class Function {
      */
     public final String getExpression() {
         return expressionText;
-    }
-    
-    /**
-     * Evaluate the function at the given x.
-     * @param x The value in which to evaluate the function.
-     * @return the value of the function in the given x.
-     */
-    public final double compute(final double x) {
-        final VariableTable variableTable = new VariableTable();
-        
-        /** 
-         * TODO: the compute method must be changed or deleted
-         */
-        
-        final int value = (int)x;
-        variableTable.set("x", value);
-        return program.execute(variableTable);
     }
     
     //--- listener management

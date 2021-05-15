@@ -11,13 +11,13 @@ public class FunctionTest {
         Function function = new Function("x/x");
         assertEquals("x/x", function.getExpression());
     }
-    
+    /**
     @Test
     public void testCompute() {
         Function function = new Function("x*2");
         assertEquals(6.0, function.compute(3), 0.001);
     }
-    
+    */
     @Test
     public void testAddFunctionListener() {
         // TODO: uncomment this test once you implemented addFunctionListener()

@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.event.MouseAdapter;
@@ -53,16 +54,20 @@ public final class PlotCanvas extends JComponent {
         final int YDenominator = 50;
         String numerator = "numerator";
         String denominator = "denominator";
-        int linelenght =  numerator.length() > denominator.length() ? numerator.length() : denominator.length();
         
-        g.setColor(Color.black);  
+        numerator = function.getExpression();        
+        g.setColor(Color.black);
+        Font trb = new Font("TimesRoman", Font.BOLD, 18);
+        g.setFont(trb);
+        
+        int linelenght =  numerator.length() > denominator.length() ? numerator.length() : denominator.length();
         g.drawString(numerator,Xbegin, YNumerator);
         
         g.drawLine(Xbegin, YLine, Xbegin + linelenght*8, YLine);
         
         g.drawString(denominator,Xbegin, YDenominator);
-        // final JTextLabel numerator = new JTextLabel();
         
+        // final JTextLabel numerator = new JTextLabel();
         
     }
 }
