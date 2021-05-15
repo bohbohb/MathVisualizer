@@ -16,7 +16,7 @@ public final class Main {
      * @param args Command line arguments (unused)
      */
     public static void main(final String[] args) {
-        final Plot plot = new Plot(new Function("x*x"));
+        final Plot plot = new Plot(new Function("x/2"));
         
         // Almost all calls to AWT/Swing should come from Event Dispach Thread.
         // The code below causes the Event Dispatch Thread to call the run function,

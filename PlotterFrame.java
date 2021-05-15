@@ -30,7 +30,7 @@ public final class PlotterFrame extends JFrame {
         final JPanel canvases = new JPanel(new BorderLayout());
         final PlotCanvas plotCanvas = new PlotCanvas(plot);   
         canvases.add(plotCanvas, BorderLayout.CENTER);
-        
+        this.add(canvases);
         
         // register listeners
         expressionField.addActionListener(new ActionListener() {

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ An\ abstract\ syntax\ tree\ (AST)\ node.\n
+comment1.params=
+comment1.target=Type\ getType()
+comment1.text=\n\ Get\ the\ type\ of\ values\ produced\ by\ this\ node.\n\ @return\ the\ type\ of\ this\ node\n
+comment2.params=
+comment2.target=boolean\ isConstant()
+comment2.text=\n\ Get\ whether\ this\ node\ always\ evaluates\ to\ the\ exact\ same\ value.\n\ @return\ whether\ this\ node\ produces\ a\ constant\ value\n
+comment3.params=p
+comment3.target=void\ compile(Program)
+comment3.text=\n\ Compile\ this\ node\ into\ the\ given\ Program.\n\ @param\ p\ The\ program\ to\ append\ this\ node\ to\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Decompile\ this\ node\ into\ a\ string.\n\ Note\ that\ the\ resulting\ string\ may\ have\n\ extra\ parentheses.\n\ @return\ a\ String\ representation\ of\ this\ AST\n
+numComments=5
